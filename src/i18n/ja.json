@@ -1,0 +1,26 @@
+{
+  "application": {
+    "title": "日本語タイトル",
+    "hello": "こんにちは、%{name}!",
+    "welcome": "こんにちは！\nようこそ %{headerTitle} へ！",
+    "welcomeWithName": "こんにちは %{userId} さん！\nようこそ %{headerTitle} へ！"
+  },
+  "message": {
+    "forLang&Intent": "[自動送信メッセージ] ブラウザ言語から判断して日本語で処理するようにします。",
+    "reset": "チャット内容をリセットしてください。",
+    "askUserID": "あなたの SAP User ID を教えてください"
+  },
+  "dropArea": {
+    "areaMessage": "ここをクリックしてファイルを選択するか、直接ファイルをここにドロップしてください。",
+    "acceptedExtentions": "もしファイルが拒否された場合は、インシデントが作成されてからそこに直接添付してください。"
+  },
+  "botMessage": {
+    "sendingDropFiles": "ドロップされたファイルを中間サーバーに転送しています。",
+    "sendFilesSuccess": "ドロップされたファイルを正常に中間サーバーに転送しました。",
+    "sendFilesFailed": "ドロップされたファイルの中間サーバーへの転送に失敗しました。"
+  },
+  "triggerPhrase": {
+    "calendar": "**発生日時**を入力してください",
+    "dropArea": "添付するファイルを選択、もしくはドロップエリアにドロップしてください。"
+  }
+}

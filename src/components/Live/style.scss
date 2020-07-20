@@ -1,0 +1,23 @@
+.RecastApp .RecastAppLive,
+.CaiApp .CaiAppLive {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  overflow-y: scroll;
+
+  &--message-container {
+    flex-grow: 1;
+    padding-bottom: 25px;
+  }
+}
+
+// (Own Comment) Control chat window size >> Comment out here if you want to show the full size of chat window even in the big screen.
+// (Own Comment) Change the style of Chat too, in order to change the outer window.
+@media only screen and (min-width: 420px) and (min-height: 575px) {
+  .RecastApp .RecastAppLive,
+  .CaiApp .CaiAppLive {
+    height: 460px;
+  }
+}
+
